@@ -1,0 +1,21 @@
+$grey: #333;
+.header {
+    z-index: 1000;
+    margin: 10px 0;
+
+    .navbar {
+        display: flex;
+        justify-content: flex-end;
+
+        h1 {
+            color: $grey;
+            padding: 0 10px;
+        }
+    }
+    .logo {
+        position: absolute;
+        padding: 0px 10px;
+    }
+
+    position: relative;
+}

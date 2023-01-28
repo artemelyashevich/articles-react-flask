@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:wght@400;600&family=PT+Sans+Narrow&display=swap');
+$font-sans: 'PT Sans Narrow', sans-serif;
+
+.footer {
+    height: 100px;
+    font-family: $font-sans;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

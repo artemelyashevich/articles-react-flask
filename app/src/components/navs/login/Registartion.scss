@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:wght@400;600&family=PT+Sans+Narrow&family=Prompt:wght@500&display=swap');
+
+$font-cour: 'Courgette', cursive;
+$font-mont: 'Montserrat', sans-serif;
+$font-pr: 'Prompt', sans-serif;
+$white: #fff;
+$grey: #333;
+$bg: rgba(255, 255, 255, 0.207);
+$border: .5px solid rgb(151, 151, 151);
+$btn: rgb(60, 221, 242);
+$btnh: rgb(97, 237, 255);
+
+
+
+.modal {
+    z-index: 3000;
+    background: $bg;
+    width: 55%;
+    margin-left: 22.5%;
+    margin-top: 10%;
+    height: 50%;
+    position: absolute;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #fff;
+    box-shadow: 8px 10px 5px 0px rgba(34, 60, 80, 0.28);
+
+    h2 {
+        color: #222;
+        font-family: $font-pr;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    label {
+        font-family: $font-mont;
+        font-size: 20px;
+        width: 15%;
+        margin-top: 5px;
+    }
+
+    input {
+        margin-left: 1%;
+        position: relative;
+        width: 70%;
+        font-size: 20px;
+        outline: none;
+        box-shadow: none;
+        border: none;
+        transition: 0.3s;
+        color: #000;
+        border-bottom: 1px solid rgb(0, 0, 0);
+        background: #ffffff75;
+        border-radius: 2px;
+    }
+
+    .btn {
+        font-size: 15px;
+        padding: 5px 0;
+        background: $btn;
+        width: 20%;
+        margin: 20px 0;
+        margin-left: 40%;
+        border: none;
+        border-radius: 10px;
+        transition: background-color, transform .5s ease;
+        text-align: center;
+
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.01);
+            background-color: $btnh;
+        }
+    }
+
+    .item {
+        position: relative;
+        display: flex;
+        margin-left: 10%;
+        margin-bottom: 15px;
+    }
+
+    .ii {
+        position: absolute;
+        left: 96%;
+        transform: scale(1.2);
+        top: 3%;
+        transition: transform .5s linear;
+
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.25);
+        }
+    }
+
+    .error {
+        margin-left: 32%;
+        font-family: $font-pr;
+        color: red;
+        border-radius: 10px;
+        padding: 0px 5px;
+        text-align: center;
+        background-color: #fff;
+        box-shadow: 4px 4px 28px 0px rgba(34, 60, 80, 0.2);
+        width: 35%;
+        margin-top: 10px;
+    }
+}

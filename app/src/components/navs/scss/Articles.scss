@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+$font-cour: 'Courgette', cursive;
+$font-mont: 'Montserrat', sans-serif;
+$font-fir: 'Fira Sans', sans-serif;
+$white: #fff;
+$grey: #333;
+$bg: rgba(255, 255, 255, 0.408);
+$border: .5px solid rgb(151, 151, 151);
+
+.wrap {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.articles {
+    .article {
+        margin: 30px 5%;
+        width: 90%;
+        background-color: $bg;
+        border-top: 2px solid #fff;
+        border-right: 2px solid #fff;
+        border-left: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        min-width: 80em;
+
+        .article-title {
+            text-align: center;
+            font-family: $font-mont;
+            margin-top: 5px;
+        }
+
+        .article-content {
+            padding: 0 10px;
+            font-family: $font-fir;
+        }
+    }
+
+    .mark {
+        color: #000;
+        text-align: right;
+        margin-right: 5%;
+        font-size: 12px;
+        font-family: $font-fir;
+        text-shadow: 0px .2px rgb(255, 255, 255);
+    }
+
+}
